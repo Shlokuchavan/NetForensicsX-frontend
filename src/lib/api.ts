@@ -251,7 +251,7 @@ export type MitreAnalysisResponse = {
 };
 
 export const API_URL = (
-process.env.NEXT_API_URL ?? "http://localhost:8000"
+process.env.NEXT_API_URL ?? "https://netforensicsx-backend.onrender.com/"
 ).replace(/\/api\/v1\/?$/, "")
 .replace(/\/+$/, "");
 
